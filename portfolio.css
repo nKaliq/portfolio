@@ -1,0 +1,45 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+#glass
+{
+  position: absolute;
+  top:80px;
+  left:180px;
+  width:1000px;
+  height:2000px;
+  background: inherit;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 10px;
+  filter: blur(15px);
+}
+
+#clone
+{
+  position: absolute;
+  top:80px;
+  left:180px;
+  width:1000px;
+  height:2000px;
+  background-color: white;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 10px;
+  opacity: 0.1;
+}
+
+#real
+{
+  position: absolute;
+  top:80px;
+  left:180px;
+  width:1000px;
+  height:2000px;
+  border-width: 3px;
+  border-radius: 10px;
+
+}

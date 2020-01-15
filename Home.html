@@ -1,0 +1,61 @@
+<!DOCKTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="Home.css"/>
+  <link rel="stylesheet" type="text/css" href="Layout.css"/>
+  <link rel="stylesheet" type="text/css" href="feed.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
+  <title>MyPage.com - Home</title>
+ </head>
+
+<body>
+  <div id="menu" class="home">
+  <a class="links" href="./Home.html" style="left:20px"> Home </a>
+  <a class="links" href="./portfolio.html " style="left:145px"> See My Portfolio </a>
+  <a class="links" href=" " style="left:395px"> Download CV </a>
+  <a class="links" href="./About.html " style="left:595px"> Contact Me </a>
+  </div>
+
+  <div id="social" class="home"> </div>
+  <div id="socialContainer">
+    <a class="slinks" href="https://www.facebook.com/nkaliq" ><img  class="icons" style="top:0px" src="./res/facebook.png"/></a>
+    <a class="slinks" href="https://www.instagram.com/imnk420"><img class="icons" style="top:50px" src="./res/instagram.png"/></a>
+  </div>
+
+  <!--div id="feedback" class="home">Feedback</div-->
+
+
+  <div id="content"></div>     <!--- For creating glass effect --->
+  <div id="contentClone"></div>  <!-- For removing blur glass edges--->
+  <div id="container">           <!--add your contents here-->
+    <h1> Hello </h1>
+    <p class="about" style="left:50px"> My name is Nitin. I am a Software & Web Developer living and working in Pondicherry  </p>
+    <p class="about" style="left:650px"> I create apps, design web sites and user interface, I also do retouching work </p>
+    <img id="me" onmouseover="zoom()" src="./res/me.png"/>
+
+    <p style="color:red;font-weight:bold;position:fixed;bottom:10px;right:10px">Site under construction !</p>
+
+  </div>
+
+<!-- This is for feedback-->
+  <div id="feedback" onClick="showFeed()" >Feedback<br>Here!</div>
+
+  <div id="feed_div" >
+      <form action="submit.php" method="post">
+        <table>
+            <input type="text" placeholder="Enter Name"  name="fname"/>
+            <input type="text" placeholder="Enter Email"  name="email"/>
+            <input type="text" placeholder="Your Comments"  name="feed"/>
+
+            <input type="submit" value="submit feedback"/>
+              <button type="button" name="button" onClick="hideFeed()">close</button>
+        </table>
+      </form>
+  </div>
+
+  <!-- script.js inclusion-->
+<script src="./script.js"></script>
+
+</body>
+</html>

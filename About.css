@@ -1,0 +1,63 @@
+
+#glass
+{
+  position: absolute;
+  top:140px;
+  left:450px;
+  width:500px;
+  height:330px;
+  background: inherit;
+
+  border-radius: 10px;
+  filter: blur(15px);
+}
+
+#clone
+{
+  position: absolute;
+  top:140px;
+  left:450px;
+  width:500px;
+  height:330px;
+  background: white;
+
+  border-radius: 10px;
+  opacity: 0.05;
+}
+
+#main
+{
+  position: absolute;
+  top:140px;
+  left:450px;
+  width:500px;
+  height:330px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px white;
+}
+
+#me {
+position: absolute;
+height: 160px;
+width: 160px;
+border-radius: 80px;
+top:40px;
+left: 160px;
+
+}
+
+#contact
+{
+  position: absolute;
+  height: 100px;
+  width: 400px;
+  top:230;
+  left:50;
+  text-align: center;
+  border-radius: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size:21;
+  text-shadow: 2px 1px 5px black;
+}
